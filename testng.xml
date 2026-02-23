@@ -1,0 +1,16 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Social Media test">
+        <classes>
+            <class name="Socmed.Like_Post">
+                <methods>
+                    <include name="StartUp"/>
+                </methods>
+            </class>
+            <class name="Socmed.Unlike_Post">
+                <methods>
+                    <include name="StartUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
